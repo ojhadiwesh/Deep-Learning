@@ -105,7 +105,7 @@ parameters=     { 'batch_size': [25,32],
                  'optimizer':['adam', 'rmsprop']}
 grid_search= GridSearchCV(estimator=classifier, 
                           param_grid= parameters,
-                          scoring= 'accuracy',
+                         scoring= 'accuracy',
                           cv=10)
 grid_search= grid_search.fit(X_train, y_train)
 best_parameters= grid_search.best_params_
