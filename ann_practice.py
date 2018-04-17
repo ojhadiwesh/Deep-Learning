@@ -5,8 +5,6 @@ Created on Mon Apr  9 17:56:28 2018
 @author: Diwesh
 """
 
-# Classification template
-
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
