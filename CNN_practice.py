@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""
+""" This classifies a picture of cat or dog with a very high accuracy. I have used Keras and tensorflow libraries for making the neural network. 
+It is using max-pooling for making the neural netwrok more robust. I am also flattening the image for more efficiency.  
 Created on Tue Apr 17 17:42:40 2018
 
 @author: Diwesh
